@@ -1,0 +1,104 @@
+.produktlisteside {
+  background-color: ;
+}
+.produktlistemain {
+}
+img {
+  max-width: 100%;
+  border: 2px solid #f4f4f4;
+}
+.produktstor {
+  max-width: 100%;
+}
+.produktbillede {
+  border: 2px solid black;
+  max-width: 70%;
+}
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2em;
+}
+.produkt {
+  padding: 1em;
+  margin: 0.7em;
+  width: 300px;
+}
+.udsolgtprodukt {
+  padding: 1em;
+  margin: 0.7em;
+  width: 300px;
+  background-color: #f4f4f4;
+}
+.infoknap {
+  background-color: #dddd;
+  text-align: center;
+}
+h1 {
+  padding-left: 3em;
+  padding-top: 1em;
+}
+.mærkeknap {
+}
+.mærke {
+  font-size: 50px;
+  padding-left: 0em;
+  padding-top: 0em;
+  margin-left: 5%;
+}
+a:visited {
+  color: black;
+}
+a:hover {
+  color: lightgray;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.alleprod {
+  padding-left: 6em;
+  color: darkgray;
+}
+.rabat {
+  color: red;
+}
+.køb {
+  font-size: 50px;
+  margin-left: 5%;
+}
+.årstidknap {
+  text-align: center;
+  margin-top: 64%;
+  font-size: 40px;
+}
+@media (min-width: 700px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .pris {
+    font-size: 50px;
+    margin-left: 5%;
+  }
+  .beskrivelse {
+    margin-inline-end: 5%;
+    margin-inline-start: 5%;
+    font-family: "Times New Roman", Times, serif;
+    padding-bottom: 10%;
+    text-align: justify;
+  }
+  .produktnavn {
+    font-size: 50px;
+    margin-left: 5%;
+  }
+  .grid_1-1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
